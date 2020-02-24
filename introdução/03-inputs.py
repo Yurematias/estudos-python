@@ -6,6 +6,6 @@ print(f'A variavel lida é {variavel}')
 # precisamos...
 var = int(input())
 print('a variavel {} multiplicada por 2 é = {}'.format(var, var*2))
-/
+
 # também podemos imprimir um valor no momento da leitura para isso...
 idade = int(input('Digite sua idade: ')) 
