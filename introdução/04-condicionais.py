@@ -14,3 +14,9 @@ if variavel == 20 or variavel == 40:
 
 elif variavel == 10 and variavel % 2 == 0:
     print('é igual a 10 e é divisivel por 2 obviamente né...')
+
+# o operador not é o ~
+# embora o de diferente continue sendo !
+
+if ~(5 != 5):
+    print('entrou na condição')
