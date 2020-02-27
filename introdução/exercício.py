@@ -17,7 +17,7 @@ while (op != 4):
         print(f'A media entre {num1} e {num2} é {(num1+num2)/2}')
     elif op == 2:
         num1 = float(input('Digite o primeiro numero: '))
-        num2 = float(input('Digite o segundo numero'))
+        num2 = float(input('Digite o segundo numero: '))
         print(f'{num1} elevado a {num2} é {num1**num2}')
     elif op == 3:
         numInt = int(input('Digite um numero: '))
