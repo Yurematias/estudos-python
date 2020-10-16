@@ -3,14 +3,17 @@ lista = ['Geralt', 'Yennefer', 'Ciri', 'Tissaia', 'Emyr']
 for item in lista:
     print(item) 
 
+print('Indices e valores: ')
 # para exibir os indices é necessario usar a função enumerate
 for index, value  in enumerate(lista):
     print(f'{index}: {value}')
 
+print('Usando range de 0 a 50, pulando de 10 em 10: ')
 # usando range
 for item in range(0, 50, 10):
     print(item)
 
+print(print('Indices e valores, usando range de 0 a 50, pulando de 10 em 10'))
 # hardcore não?
 for index, value in enumerate(range(0, 50, 10)):
     print(f'{index}: {value}')
@@ -44,3 +47,10 @@ for item in lista:
     print(item)
 else:
     print('terminou o laço')
+
+print('Testando laço')
+
+for i in range(0, 10):
+    print(i)
+else:
+    print('Fim')
