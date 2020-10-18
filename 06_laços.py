@@ -51,6 +51,9 @@ else:
 print('Testando laço')
 
 for i in range(0, 10):
-    print(i)
+    # o end especifica o caracter ao final do print
+    # neste caso será um espaço
+    # por padrão no final do print acontece a quebra de linha
+    print(i, end=' ')
 else:
     print('Fim')

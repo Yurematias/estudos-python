@@ -62,3 +62,20 @@ print(sum(lista))
 # forma de fazer uma lista grande rapidamente
 lista_grande = list(range(1, 501))
 print(lista_grande)
+
+print('\n')
+
+lista= [23, 25, 46, 58, 2, 34]
+print(lista)
+# printando intervalos da lista
+# intervalo fechado no inicio e aberto no fim
+# por isso não inclui o indice 4
+# do 1 ao 3
+print(lista[1:4])
+
+# para ir até o penultimo colocar -1
+# do 1 ao penultimo, incluindo-o
+print(lista[1: -1])
+
+# do 2 ao antepenultimo, incluindo-o
+print(lista[1: -2])
