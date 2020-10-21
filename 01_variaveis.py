@@ -16,6 +16,13 @@ print(nome + sobrenome)
 
 idade = 19 
 
+# ainda é possivel declarar variavel sem inicializala
+# esta variavel não tera tipo, será dinamica
+# para isso..
+variavel_nao_iniciada = None
+
+print(variavel_nao_iniciada)
+
 # existe uma forma de concatenar strings com variaveis 
 # como se fosse template string do javascript 
 # basta colocar um f antes da aspa
